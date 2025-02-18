@@ -236,14 +236,14 @@ transform: translateY(-20%);
   margin-bottom: 20px;
 }
 .text h3{
-    font-size: 60px;
+    font-size: 30px;
     color: #fefafa;
     letter-spacing: 2px;
     /* text-shadow: 0px 0px 10px rgb(248, 248, 11); */
     font-weight: 300;
 }
 .multitext{
-  font-size: 40px;
+  font-size: 30px;
   color: rgb(13, 5, 254);
   font-weight: 600;
 }
@@ -275,9 +275,14 @@ transform: translateY(-20%);
   font-size: 60px;
   color: #fff;
   margin-bottom: 30px;
+  font-size: 30px;
+}
+.text_2 p{
+  font-family: 'Courier New', Courier, monospace;
 }
 .mult{
   color: crimson;
+  font-size: 30px;
 }
 #col_2 .text_2 p{
   font-size: 20px;
@@ -293,15 +298,15 @@ transform: translateY(-20%);
   padding-top: 40px;
 }
 .icon{
-  width: 13%;
+  width: 90px;
   font-size:30px ;
   border: 3px solid rgb(244, 246, 252);
   border-radius: 50%;
   text-align: center;
   margin-right: 40px;
-  padding: 20px;
+  padding: 16px;
   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-
+height: 90px;
   transition: all 0.8s ease;
 }
 .icon a i{
@@ -470,6 +475,7 @@ transform: translateY(-10%) scale(1.1);
 #portfolio_website{
   width: 32%;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  margin-bottom: 30px;
 }
 #portfolio_website:hover{
   transform: rotateX(10deg) rotateY(15deg);
