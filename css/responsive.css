@@ -12,6 +12,10 @@
            .text_2{
             margin: 0 auto;
            }
+           .social{
+            display: flex;
+            justify-content: center;
+           }
            .social_icon{
             text-align: center;
             display: flex;
@@ -19,7 +23,7 @@
             padding-right: 40px;
            }
            #skill_col{
-            width: 50%;
+            width: 100%;
            }
            .tabs{
             width: 100%;
@@ -46,7 +50,7 @@
             font-size: 33px;
         }
        .icon{
-        width: 25%;
+        
        }
        #col_1{
         padding-top: 60px;
@@ -70,11 +74,11 @@
       }
       .icon{
         font-size: 20px;
-        width: 30%;
+  height: auto;
         padding: 12px;
       }
       .social_row{
-        width: 70%;
+        width: 100%;
       }
       .text_2 h5{
         font-size: 25px;
@@ -98,5 +102,9 @@
       }
       .name{
         padding:0px;
+      }
+      #col_2 .text_2 p{
+        letter-spacing: normal;
+        font-weight: lighter;
       }
     }
