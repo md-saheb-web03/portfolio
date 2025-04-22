@@ -193,9 +193,7 @@ header{
 .photo{
   width: 40%;
   margin: 0 auto;
-  border: 5px solid rgb(0, 225, 255);
   border-radius: 50%;
-  box-shadow: 1px 2px 30px rgb(0, 255, 238);
   margin-bottom: 30px;
   padding: 1px;
   animation: photo 4s infinite;
@@ -229,10 +227,10 @@ transform: translateY(-20%);
   margin-bottom: 40px;
 }
 .text h4{
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
   letter-spacing: 1px;
-  text-shadow: 0px 0px 20px rgb(20, 228, 183);
+
   margin-bottom: 20px;
 }
 .text h3{
@@ -260,12 +258,16 @@ transform: translateY(-20%);
  border-radius: 20px;
   font-weight: 800;
   letter-spacing: 1px;
-  border: 3px solid rgb(20, 228, 183);
   background-color:black;
-  box-shadow: 0px 0px 10px rgb(20, 228, 183);
-  background-color: rgb(20, 228, 183);
+
   font-family: lato;
 text-decoration: none;
+transition: all 2s ease;
+}
+.download:hover{
+  background: linear-gradient(145deg, #ff5475, #80e4c1);
+  color: #151515;
+  box-shadow: 0px 2px #80e4c1;
 }
 .text_2{
   width: 100%;
@@ -299,13 +301,12 @@ text-decoration: none;
 }
 .icon{
   width: 90px;
-  font-size:30px ;
-  border: 3px solid rgb(244, 246, 252);
+  font-size:35px ;
   border-radius: 50%;
   text-align: center;
   margin-right: 40px;
   padding: 16px;
-  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+
 height: 90px;
   transition: all 0.8s ease;
 }
@@ -317,6 +318,9 @@ height: 90px;
   background: linear-gradient(145deg, #ff5475, #80e4c1);
 
 transform: translateY(-10%) scale(1.1);
+}
+.icon:hover a i{
+  color: #151515;
 }
 
 /* skills section  */
