@@ -65,6 +65,9 @@
       .number2 a{
         margin-left: 0;
       }
+      .tab{
+        font-size: 20px;
+      }
     }
     @media only screen and (max-width:400px){
     
