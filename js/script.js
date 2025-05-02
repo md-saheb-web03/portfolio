@@ -44,8 +44,8 @@ $('.tabs .tab').click(function () {
     $(this).addClass('active');
     $('#' + tabId).addClass('active');
 });
-//  page loader 
-// loader code 
+ page loader 
+loader code 
 document.addEventListener("DOMContentLoaded", () => {
     const spinnerWrapper = document.querySelector('.swiper-wrapper');
 
