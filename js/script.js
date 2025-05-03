@@ -20,12 +20,12 @@ let typed = new Typed('.multitext', {
     loop: true // Changed 'auto' to 'true'
 });
 
-let typede = new Typed('.mult', {
-    strings: ['WEB DESIGNER', 'WEB DESIGNER', 'WEB DESIGNER'],
-    typeSpeed: 50,
-    backSpeed: 60,
-    loop: true // Changed 'auto' to 'true'
-});
+// let typede = new Typed('.mult', {
+//     strings: ['WEB DESIGNER', 'WEB DESIGNER', 'WEB DESIGNER'],
+//     typeSpeed: 50,
+//     backSpeed: 60,
+//     loop: true // Changed 'auto' to 'true'
+// });
 
 // 3rd sec tab 
   
@@ -44,8 +44,8 @@ $('.tabs .tab').click(function () {
     $(this).addClass('active');
     $('#' + tabId).addClass('active');
 });
- page loader 
-loader code 
+//  page loader 
+// loader code 
 document.addEventListener("DOMContentLoaded", () => {
     const spinnerWrapper = document.querySelector('.swiper-wrapper');
 

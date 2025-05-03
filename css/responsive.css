@@ -68,6 +68,12 @@
       .tab{
         font-size: 20px;
       }
+      .name b{
+        font-size: 20px;
+      }
+      .navbar_ul .li a i{
+        font-size: 17px;
+      }
     }
     @media only screen and (max-width:400px){
     
