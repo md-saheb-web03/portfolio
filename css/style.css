@@ -52,7 +52,7 @@ body {
 .slide_nav {
   width: 30%;
   height: 100%;
-  background: black;
+  background: linear-gradient( 145deg,rgb(119, 119, 240), rgb(157, 251, 237));
   border-radius: 10px;
   padding-top: 20px;
   position: fixed;
@@ -82,10 +82,7 @@ body {
 .menu_btn {
   padding: 10px;
   font-size: 30px;
-  width: 100%;
-  /* background: linear-gradient(red , blue); */
-  background-color: black;
-
+  background: none;
 }
 
 .menu_btn button {
@@ -184,7 +181,9 @@ body {
 /* header section  */
 header {
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
+    background: linear-gradient( 145deg,rgb(119, 119, 240), rgb(157, 251, 237));
+
 }
 
 .header_container {
